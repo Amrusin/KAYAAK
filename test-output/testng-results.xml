@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-----DB Connected-----]]>
+    </line>
+    <line>
+      <![CDATA[Launch Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Url is triggering]]>
+    </line>
+    <line>
+      <![CDATA[--Logged out from Application--]]>
+    </line>
+    <line>
+      <![CDATA[--Close the Browser--]]>
+    </line>
+    <line>
+      <![CDATA[--Close the DB Connection--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-14T11:21:05 IST" name="Default suite" finished-at="2024-06-14T11:21:37 IST" duration-ms="32023">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T11:21:05 IST" name="Default test" finished-at="2024-06-14T11:21:37 IST" duration-ms="32023">
+      <class name="Scenario.EndToEndScenario">
+        <test-method is-config="true" signature="OpenDataBaseConnection()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:05 IST" name="OpenDataBaseConnection" finished-at="2024-06-14T11:21:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----DB Connected-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenDataBaseConnection -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:05 IST" name="OpenBrowser" finished-at="2024-06-14T11:21:06 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:06 IST" name="loginToApp" finished-at="2024-06-14T11:21:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url is triggering]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Flight()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:06 IST" name="Flight" finished-at="2024-06-14T11:21:37 IST" duration-ms="30557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:37 IST" name="closeBrowser" finished-at="2024-06-14T11:21:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Close the Browser--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:37 IST" name="logoutFromApplication" finished-at="2024-06-14T11:21:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Logged out from Application--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:Scenario.EndToEndScenario@368f2016]" started-at="2024-06-14T11:21:37 IST" name="closeDBConnection" finished-at="2024-06-14T11:21:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Close the DB Connection--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- Scenario.EndToEndScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
